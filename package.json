@@ -1,0 +1,26 @@
+{
+  "name": "api-test",
+  "version": "1.0.0",
+  "description": "My first API",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Gusta-snt/My-API.git"
+  },
+  "author": "Gustavo Ferreira dos Santos",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Gusta-snt/My-API/issues"
+  },
+  "homepage": "https://github.com/Gusta-snt/My-API#readme",
+  "dependencies": {
+    "body-parser": "^1.20.0",
+    "cors": "^2.8.5",
+    "express": "^4.18.1",
+    "morgan": "^1.10.0",
+    "nodemon": "^2.0.16"
+  }
+}
